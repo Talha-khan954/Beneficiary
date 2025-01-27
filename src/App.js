@@ -39,9 +39,9 @@ const [darkMode, setDarkMode] = useState(true)
          <Navbar />
          <Wrapper>
           <Routes>
-            <Route path="/">
+            <Route path="/dashboard">
               {/* <Route index element={<Home />}/> */}
-              <Route index element={<Dashboard />}/>
+              {/* <Route index element={<Dashboard />}/> */}
               <Route path="signin" element={<SignIn/>}/>
               {/* <Route path="/Video"> */}
               {/* <Route path="/" element={<ReceptionPage />} /> */}

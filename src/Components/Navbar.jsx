@@ -58,7 +58,7 @@ const Navbar = () => {
             <Input placeholder='search'  />
             <SearchIcon/>
           </Search>
-          <Link to="signin" style={{textDecoration:"none"}}>
+          <Link to="dashboard/signin" style={{textDecoration:"none"}}>
           <Button>
            <AccountCircleIcon/>
             SIGN IN
